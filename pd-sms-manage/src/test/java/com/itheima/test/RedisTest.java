@@ -1,4 +1,4 @@
-package com.itheima.test;
+/*package com.itheima.test;
 
 import com.itheima.sms.SmsManageApplication;
 import org.junit.Test;
@@ -21,4 +21,4 @@ public class RedisTest {
         }
     }
 
-}
+}*/
