@@ -14,13 +14,14 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
-    <description>业务系统服务父pom</description>
+    <description>集信达业务系统服务父</description>
 
     <modules>
         <module>pd-sms-entity</module>
         <module>pd-sms-server</module>
         <module>pd-sms-api</module>
         <module>pd-sms-manage</module>
+        <module>pd-sms-sdk</module>
     </modules>
 
     <profiles>
@@ -35,10 +36,12 @@
                 <!--当前环境-->
                 <pom.profile.name>dev</pom.profile.name>
                 <!--Nacos配置中心地址-->
-                <pom.nacos.ip>nacos-dev.itcast.cn</pom.nacos.ip>
+                <!--<pom.nacos.ip>nacos-dev.itcast.cn</pom.nacos.ip>-->
+                <!--<pom.nacos.port>8848</pom.nacos.port>-->
+                <pom.nacos.ip>47.94.207.39</pom.nacos.ip>
                 <pom.nacos.port>8848</pom.nacos.port>
                 <!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-                <pom.nacos.namespace>189ed07f-c8b8-43cd-ad2d-41102bdbb4de</pom.nacos.namespace>
+                <pom.nacos.namespace>1ed3f65e-a51b-4de3-a2e1-27b3785fbb0f</pom.nacos.namespace>
             </properties>
         </profile>
         <!-- 测试环境 -->
@@ -50,7 +53,7 @@
                 <pom.nacos.ip>nacos-test.itcast.cn</pom.nacos.ip>
                 <pom.nacos.port>8848</pom.nacos.port>
                 <!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-                <pom.nacos.namespace>4f2dab52-060d-4991-99dd-0839c8624cef</pom.nacos.namespace>
+                <pom.nacos.namespace>1ed3f65e-a51b-4de3-a2e1-27b3785fbb0f</pom.nacos.namespace>
             </properties>
         </profile>
         <!-- 生产环境 -->
@@ -69,7 +72,6 @@
 
     <properties>
         <pd-tools.version>1.0.0</pd-tools.version>
-
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -81,7 +83,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
-
         <mybatis.version>3.5.2</mybatis.version>
         <mybatis.typehandlers.version>1.0.2</mybatis.typehandlers.version>
         <mybatisplus.version>3.2.0</mybatisplus.version>
@@ -123,14 +124,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-
             <dependency>
                 <groupId>com.itheima</groupId>
                 <artifactId>pd-sms-entity</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.itheima</groupId>
                 <artifactId>pd-auth-entity</artifactId>
@@ -141,7 +139,6 @@
                 <artifactId>pd-auth-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
             <!-- pd-tools -->
             <dependency>
                 <groupId>com.itheima</groupId>
@@ -198,7 +195,6 @@
                 <artifactId>pd-tools-xss</artifactId>
                 <version>${pd-tools.version}</version>
             </dependency>
-
             <!-- 持久层相关 -->
             <dependency>
                 <groupId>com.baomidou</groupId>
@@ -225,7 +221,6 @@
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>
             </dependency>
-
             <!-- FastDFS文件 -->
             <dependency>
                 <groupId>com.github.tobato</groupId>
@@ -244,13 +239,11 @@
                 <artifactId>minio</artifactId>
                 <version>${minio.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-core</artifactId>
                 <version>${springfox.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.github.whvcse</groupId>
                 <artifactId>easy-captcha</artifactId>
@@ -265,7 +258,6 @@
             <artifactId>hutool-all</artifactId>
             <version>${hutool.version}</version>
         </dependency>
-
         <!--Lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -277,7 +269,6 @@
             <artifactId>slf4j-api</artifactId>
             <scope>compile</scope>
         </dependency>
-
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>

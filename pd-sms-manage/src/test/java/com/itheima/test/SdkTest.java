@@ -1,3 +1,4 @@
+/*
 package com.itheima.test;
 
 import com.itheima.sms.SmsManageApplication;
@@ -18,9 +19,11 @@ public class SdkTest {
     @Autowired
     private SmsSendService smsSendService;
 
-    /**
+    */
+/**
      * 通过SDK方式调用短信接收服务
-     */
+     *//*
+
     @Test
     public void testSend(){
         SmsParamsDTO dto = new SmsParamsDTO();
@@ -37,3 +40,4 @@ public class SdkTest {
     }
 
 }
+*/
