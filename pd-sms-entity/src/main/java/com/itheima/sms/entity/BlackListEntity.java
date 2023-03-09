@@ -9,7 +9,6 @@ import lombok.*;
 /**
  * 黑名单
  */
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

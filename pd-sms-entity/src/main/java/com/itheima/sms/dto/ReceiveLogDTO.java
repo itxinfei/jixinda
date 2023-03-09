@@ -6,8 +6,6 @@ import lombok.Data;
 
 /**
  * 接收日志表
- *
- * @author 传智播客
  */
 @Data
 @ApiModel(description = "接收日志表")

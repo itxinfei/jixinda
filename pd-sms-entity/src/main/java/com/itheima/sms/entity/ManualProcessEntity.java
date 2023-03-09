@@ -10,7 +10,6 @@ import lombok.EqualsAndHashCode;
 /**
  * 人工处理任务表
  */
-
 @Data
 @EqualsAndHashCode(callSuper = false)
 @TableName("manual_process")

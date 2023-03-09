@@ -22,6 +22,12 @@ public enum TemplateType {
     private int code;
     private String desc;
 
+    /**
+     * 返回模板类型
+     *
+     * @param code
+     * @return
+     */
     public static TemplateType getDesc(int code) {
         for (TemplateType it : TemplateType.values()) {
             if (it.getCode() == code) {

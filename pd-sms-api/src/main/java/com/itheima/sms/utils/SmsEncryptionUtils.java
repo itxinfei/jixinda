@@ -2,6 +2,9 @@ package com.itheima.sms.utils;
 
 import com.alibaba.nacos.common.util.Md5Utils;
 
+/**
+ * @author Administrator
+ */
 public class SmsEncryptionUtils {
     /**
      * 秘钥计算方法

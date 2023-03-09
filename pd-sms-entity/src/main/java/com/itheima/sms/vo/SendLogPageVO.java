@@ -9,6 +9,9 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.time.LocalDateTime;
 
+/**
+ * @author Administrator
+ */
 @Data
 @ApiModel(description = "发送记录")
 public class SendLogPageVO {

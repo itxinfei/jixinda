@@ -6,8 +6,6 @@ import lombok.Data;
 
 /**
  * 人工处理任务表
- *
- * @author 传智播客
  */
 @Data
 @ApiModel(description = "人工处理任务表")

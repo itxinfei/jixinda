@@ -7,9 +7,6 @@ import java.util.List;
 
 /**
  * 黑名单
- *
- * @author 传智播客
- *
  */
 public interface BlackListService extends IService<BlackListEntity> {
 

@@ -10,7 +10,6 @@ import lombok.EqualsAndHashCode;
 /**
  * 定时发送
  */
-
 @Data
 @EqualsAndHashCode(callSuper = false)
 @TableName("timing_push")

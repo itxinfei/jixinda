@@ -8,9 +8,6 @@ import lombok.Data;
 
 /**
  * 签名表
- *
- * @author 传智播客
- *
  */
 @Data
 @ApiModel(description = "签名表")

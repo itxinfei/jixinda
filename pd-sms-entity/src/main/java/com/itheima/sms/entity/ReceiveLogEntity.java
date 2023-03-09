@@ -10,7 +10,6 @@ import lombok.EqualsAndHashCode;
 /**
  * 接收日志表
  */
-
 @Data
 @EqualsAndHashCode(callSuper = false)
 @TableName("receive_log")

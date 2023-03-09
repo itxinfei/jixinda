@@ -7,6 +7,9 @@ import lombok.Data;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author Administrator
+ */
 @Data
 @ApiModel(description = "短信发送")
 public class SmsSendDTO {

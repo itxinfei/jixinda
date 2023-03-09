@@ -11,7 +11,6 @@ import lombok.EqualsAndHashCode;
 /**
  * 日志表
  */
-
 @Data
 @EqualsAndHashCode(callSuper = false)
 @TableName("send_log")

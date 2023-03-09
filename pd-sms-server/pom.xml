@@ -6,7 +6,6 @@
         <groupId>com.itheima</groupId>
         <artifactId>sms-backend</artifactId>
         <version>1.0.0</version>
-        <relativePath>../</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -87,11 +86,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-json</artifactId>
-        </dependency>
-
         <!-- 测试 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -143,6 +137,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-json</artifactId>
+            <version>2.2.7.RELEASE</version>
         </dependency>
         <!--    京东云    -->
         <dependency>

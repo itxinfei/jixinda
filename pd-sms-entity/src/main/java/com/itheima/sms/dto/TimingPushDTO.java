@@ -6,8 +6,6 @@ import lombok.Data;
 
 /**
  * 定时发送
- *
- * @author 传智播客
  */
 @Data
 @ApiModel(description = "定时发送")

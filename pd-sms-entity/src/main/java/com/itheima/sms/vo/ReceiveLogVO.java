@@ -5,6 +5,9 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * @author Administrator
+ */
 @Data
 @ApiModel(description = "接收日志表")
 public class ReceiveLogVO extends ReceiveLogEntity {

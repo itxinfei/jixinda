@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
  * 短信发送接口
  * header 中存放鉴权信息、平台信息
  * body 中只有短信内容
- *
- * @author 传智播客
  */
 @RestController
 @RequestMapping("sms")
