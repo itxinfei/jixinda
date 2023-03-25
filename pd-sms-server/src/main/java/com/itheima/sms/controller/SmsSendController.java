@@ -41,7 +41,6 @@ public class SmsSendController {
     private ConfigService configService;
     @Autowired
     private PlatformService platformService;
-
     @Autowired
     private ReceiveLogService receiveLogService;
     @Autowired

@@ -280,7 +280,7 @@
         </dependency>
     </dependencies>
 
-   <!-- &lt;!&ndash;配置maven项目的远程仓库&ndash;&gt;-->
+    <!-- 配置maven项目的远程仓库-->
     <repositories>
         <repository>
             <id>itheima</id>
