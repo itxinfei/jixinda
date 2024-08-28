@@ -10,14 +10,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.concurrent.TimeUnit;
 
-//@RunWith(SpringRunner.class)
-//@SpringBootTest(classes = SmsApiApplication.class)
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = SmsApiApplication.class)
 public class RedisListTest {
-   // @Autowired
+    @Autowired
     private RedisTemplate redisTemplate;
 
     //生产消息
-   // @Test
+    @Test
     public void testPush(){
         for (int i = 0; i < 100; i++) {
             redisTemplate.opsForList().leftPush("mylist","msg" + i);

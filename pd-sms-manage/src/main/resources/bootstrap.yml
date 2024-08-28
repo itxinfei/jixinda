@@ -4,7 +4,6 @@ pinda:
     ip: ${NACOS_IP:@pom.nacos.ip@}
     port: ${NACOS_PORT:@pom.nacos.port@}
     namespace: ${NACOS_ID:@pom.nacos.namespace@}
-
 spring:
   main:
     allow-bean-definition-overriding: true

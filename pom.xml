@@ -37,10 +37,10 @@
                 <!--当前环境-->
                 <pom.profile.name>dev</pom.profile.name>
                 <!--Nacos配置中心地址-->
-                <pom.nacos.ip>127.0.0.1</pom.nacos.ip>
+                <pom.nacos.ip>192.168.101.82</pom.nacos.ip>
                 <pom.nacos.port>8848</pom.nacos.port>
                 <!--Nacos配置中心命名空间,用于支持多环境.这里必须使用ID，不能使用名称,默认为空-->
-                <pom.nacos.namespace>6bf5cfbe-5df0-4316-9882-0a4872229a5f</pom.nacos.namespace>
+                <pom.nacos.namespace>b6a83ca9-acf5-4271-9a44-82a53f9ac608</pom.nacos.namespace>
             </properties>
         </profile>
         <!-- 测试环境 -->

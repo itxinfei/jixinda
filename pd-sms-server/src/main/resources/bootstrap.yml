@@ -1,10 +1,10 @@
+# 使用外部配置管理工具或环境变量来设置默认值
 pinda:
   local-ip: ${LOCAL_IP:${spring.cloud.client.ip-address}}   # docker部署时，需要指定， 表示的运行该服务的宿主机IP
   nacos:
     ip: ${NACOS_IP:@pom.nacos.ip@}
     port: ${NACOS_PORT:@pom.nacos.port@}
     namespace: ${NACOS_ID:@pom.nacos.namespace@}
-
 spring:
   main:
     allow-bean-definition-overriding: true
