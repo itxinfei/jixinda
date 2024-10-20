@@ -1,3 +1,6 @@
+## 在线体验
+- https://jxd.itheima.net/#/login
+
 # 集信达【短信平台】项目概述及管理端
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0612/010815_689070aa_800553.jpeg "QQ截图20210612010758.jpg")
 
