@@ -20,7 +20,7 @@
 [演示地址](https://jxd.itheima.net/#/login)  
 👉 推荐使用Chrome浏览器访问，测试账号：`admin/123456`
 
-![项目封面图](https://broadscope-dialogue-new.oss-cn-beijing.aliyuncs.com/output/20250516/1c127f3d2192154370eddbd3104038fd.png?Expires=1778921129&OSSAccessKeyId=LTAI5tL97mBYzVcjkG1cUyin&Signature=3juABDTojvhHGQjLVtyefmawbCM%3D)
+![输入图片说明](assets/%E5%8A%9F%E8%83%BD%E7%BB%93%E6%9E%84%E5%9B%BE-1605840544382.png)
 
 ---
 
